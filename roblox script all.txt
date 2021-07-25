@@ -1,0 +1,4 @@
+1.날개:require(4749896781).no("your name")
+2.경비 아저씨:require(4513235536).G("your name")
+3.고양이:require(3626787481).neko("your name") 
+4.킥 건:require(4188929730).load("your name")
