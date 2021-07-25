@@ -1,0 +1,20 @@
+for i=1,9000000000 do
+	local Part = Instance.new("Part", workspace)
+	local SelectionBox = Instance.new("SelectionBox", Part)
+	Part.Position = workspace.e.Position
+	Part.Material = Enum.Material.Pebble
+	Part.Transparency = 0.3
+	wait()
+	Instance.new("SelectionBox", Part)
+	SelectionBox.Adornee = Part
+	SelectionBox.LineThickness = 0.3
+	SelectionBox.SurfaceTransparency = 0.5
+end
+
+for i=1,9000000000 do
+	local Part = Instance.new("Part", workspace)
+	Part.Position = workspace.e.Position
+	Part.Material = Enum.Material.Glass
+	Part.Transparency = 1
+wait()
+end
